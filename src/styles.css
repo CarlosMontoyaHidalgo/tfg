@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  @apply bg-white;
+  @apply text-black;
+}
+
+:root{
+  color-scheme: dark light;
+}
+
